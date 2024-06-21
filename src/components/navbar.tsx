@@ -69,10 +69,16 @@ export default component$(() => {
             <ul class="menu menu-horizontal">
               {/* Navbar menu content here */}
               <li>
-                <a href="/#services">Navbar Item 1</a>
+                <a href="/#home">Home</a>
               </li>
               <li>
-                <a href="/#contact">Navbar Item 2</a>
+                <a href="/#about">About</a>
+              </li>
+              <li>
+                <a href="/#services">Services</a>
+              </li>
+              <li>
+                <a href="/#contact">Contect</a>
               </li>
             </ul>
           </div>
@@ -89,10 +95,16 @@ export default component$(() => {
         <ul class="menu min-h-full w-80 bg-base-200 p-4">
           {/* Sidebar content here */}
           <li>
-            <a href="/#services">Sidebar Item 1</a>
+            <a href="/#home">Home</a>
           </li>
           <li>
-            <a href="/#contact">Sidebar Item 2</a>
+            <a href="/#about">About</a>
+          </li>
+          <li>
+            <a href="/#services">Services</a>
+          </li>
+          <li>
+            <a href="/#contact">Contect</a>
           </li>
         </ul>
       </nav>
